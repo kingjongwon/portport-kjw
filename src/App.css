@@ -1,38 +1,376 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Marcellus+SC&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+}
+
+/* nav-box */
+.nav_box {
+  z-index: 9999999;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(189, 189, 189);
+}
+.nav_logobox h1 {
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.nav_logobox h1:hover {
+  color: honeydew;
+}
+nav {
+}
+.gnb {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.gnb li {
+  padding: 0 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.gnb li:hover {
+  color: honeydew;
+}
+.nav_link {
+}
+/* nav-box */
+
+/* about-box */
+.about {
+  width: 80vw;
+  height: 80vh;
+  margin: 50px auto 0;
+}
+.about_bg {
+  position: absolute;
+  top: 9%;
+  left: 10%;
+  z-index: -1;
+  width: 80%;
+  /* background-color: #000; */
+}
+.about_bg img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.4);
+  border-radius: 20px;
+}
+.about_txtbox {
+  margin-top: 14%;
+}
+.about_info {
+  width: 40vw;
+  margin: 120px auto 0;
+}
+.about h2 {
+  font-size: 3.125rem;
+  color: #fff;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about p {
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 7%;
+  line-height: 1.8;
+  text-shadow: 5px 5px 50px #000;
 }
+.about p strong {
+  font-size: 25px;
+}
+/* about-box */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* work-box */
+.work_box {
+  width: 80vw;
+  height: 80vh;
+  margin: 120px auto 0;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ddd;
+  padding-bottom: 20px;
+}
+.work_box h1 {
+  font-size: 50px;
+  margin-bottom: 45px;
+  padding-top: 30px;
+  font-style: italic;
+  font-weight: 700;
+}
+.work_con_box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+.work_img {
+  /* width: 16.4vw; */
+  height: 19vh;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* .work_img::after {
+  width: 100%;
+  background-color: #fff;
+  content: "";
+  clear: both;
+  display: block;
+} */
+.work_img:hover {
+  transform: rotateY(720deg);
+  transition: all 3s;
+}
+.work_con1 {
+}
+.work_con2 {
+}
+.work_tit_box {
+  margin: 30px 0;
+}
+.work_tit_box .work_con_tit {
+  font-size: 18px;
+  font-weight: bold;
+}
+.work_tit_box p {
+  font-size: 15px;
+}
+.work_tool_box {
+  margin-bottom: 15px;
+}
+.work_tool_box .work_con_tool {
+  font-size: 18px;
+  font-weight: bold;
+}
+.work_tool_box p {
+  font-size: 15px;
+}
+.work_info_box {
+  margin-bottom: 15px;
+}
+.work_info_box h2 {
+  font-size: 18px;
+}
+.work_info_box p {
+  font-size: 15px;
+}
+.work_btn {
+  margin-top: 10px;
+  border: 0;
+  outline: 0;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: 1s;
+}
+.work_btn a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: 1s;
+}
+.work_btn:hover {
+  background-color: rgb(190, 16, 51);
+}
+.work_btn:hover a {
+  color: #fff;
+}
+/* work-box */
+
+/* skill-box */
+.skill_box {
+  width: 80vw;
+  height: 80vh;
+  margin: 120px auto 100px;
+  background-color: #ddd;
+  border-radius: 20px;
+  /* background-color: rgb(68, 105, 68); */
+}
+.skill_title {
+  font-size: 50px;
+  text-align: center;
+  padding: 30px 0;
+  font-style: italic;
+  font-weight: 700;
+}
+.skill_gnb {
+  width: 40vw;
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 80px auto 0;
+}
+.skill_gnb .s_list {
+  width: 30%;
+  margin: 5px 10px;
+}
+.skill_gnb .s_list p {
+  background-color: rgb(45, 62, 223);
+  padding: 8px 0;
+  margin: 5px 0;
+  letter-spacing: 1.8px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.gage {
+  display: block;
+  width: 100%;
+  list-style: none;
+}
+.gage > li {
+  width: 100%;
+  height: 10%;
+}
+.back {
+  box-sizing: content-box;
+  height: 20px; /* Can be anything */
+  position: relative;
+  margin: 25px 0 20px 0; /* Just for demo spacing */
+  background: rgb(182, 182, 182);
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.74);
+}
+.front {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(0, 47, 255);
+  box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  animation: move 1s linear infinite;
+}
+.front::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+.per {
+  margin: 0 0 20px;
+}
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
   }
 }
+/* skill-box */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* contact-box */
+.contact_box {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto 50px;
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 20px;
+}
+.c_c_box {
+  display: flex;
+  justify-content: flex-start;
+}
+.contact_title h1 {
+  margin-top: 50px;
+  padding: 50px 0;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+}
+.c_imgbox {
+  margin: 40px 0 0 150px;
+}
+.c_img {
+  width: 30vw;
+  border-radius: 20px;
+  filter: brightness(0.8);
+}
+.c_gnb {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: left;
+  list-style: none;
+  margin: 80px 0 0 170px;
+  padding: 0;
 }
-
-.App-link {
-  color: #61dafb;
+.c_gnb li {
+  padding: 20px 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.c_gnb li:first-child {
+  font-size: 22px;
 }
+/* .contact_title h1 {
+  margin-top: 50px;
+  padding: 50px 0;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+}
+.contact_call_box {
+  padding: 80px 0;
+}
+.contact_call {
+}
+.contact_num {
+  font-size: 15px;
+}
+.contact_mail_box {
+  padding: 50px 0;
+}
+.contact_mail {
+}
+.contact_addr {
+  font-size: 15px;
+} */
+/* contact-box */
