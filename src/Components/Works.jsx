@@ -1,7 +1,9 @@
 import Vlogo from "../media/volvo-logo.png";
 import Jlogo from "../media/jbl-logo.png";
 import Mylogo from "../media/about-bg.jpg";
+import Scroll from "react-scroll";
 
+let Link = Scroll.Link;
 export default function Works() {
   return (
     <div className="work_box">
@@ -21,13 +23,18 @@ export default function Works() {
             <hr />
           </div>
           <div className="work_info_box">
-            <h2>설명</h2>
-            <p>블라블라블라</p>
+            <h2>주요기능</h2>
+            <p>scroll animation, hover(filter) 효과. </p>
             <hr />
           </div>
           <div>
             <button className="work_btn">
-              <a href="http://kjwon8.dothome.co.kr/volvo/main.html">Go Web</a>
+              <a
+                href="http://kjwon8.dothome.co.kr/volvo/main.html"
+                target="_blank"
+              >
+                Go Web
+              </a>
             </button>
           </div>
         </div>
@@ -45,13 +52,15 @@ export default function Works() {
             <hr />
           </div>
           <div className="work_info_box">
-            <h2>설명</h2>
-            <p>블라블라블라</p>
+            <h2>주요기능</h2>
+            <p>React Scroll을 이용한 Scroll movement.</p>
             <hr />
           </div>
           <div>
             <button className="work_btn">
-              <a href="http://kjwon8.dothome.co.kr/jbl/main.html">This Page</a>
+              <Link to="About" offset={-230} duration={500}>
+                This Page
+              </Link>
             </button>
           </div>
         </div>
@@ -69,13 +78,18 @@ export default function Works() {
             <hr />
           </div>
           <div className="work_info_box">
-            <h2>설명</h2>
-            <p>블라블라블라</p>
+            <h2>주요기능</h2>
+            <p>javascript slider, position을 이용한 movement.</p>
             <hr />
           </div>
           <div>
             <button className="work_btn">
-              <a href="http://kjwon8.dothome.co.kr/jbl/main.html">Go Web</a>
+              <a
+                href="http://kjwon8.dothome.co.kr/jbl/main.html"
+                target="_blank"
+              >
+                Go Web
+              </a>
             </button>
           </div>
         </div>

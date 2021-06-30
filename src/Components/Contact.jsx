@@ -12,10 +12,17 @@ export default function Contact() {
         </div>
         <ul className="c_gnb">
           <li>
-            <strong>프론트엔드 개발자 김종원 입니다.</strong>
+            <p>안녕하세요!</p> <br />
+            <p>프론트엔드 개발자 김종원 입니다.</p>
           </li>
-          <li>📞 TEL : 010-9764-1177</li>
-          <li>✉ MAIL : kjwon8@naver.com</li>
+          <li>
+            <strong>📞 TEL : 010-9764-1177</strong>{" "}
+          </li>
+          <li>
+            <strong>
+              ✉ MAIL : <a href="mailto:kjwon8@naver.com">kjwon8@naver.com</a>
+            </strong>
+          </li>
         </ul>
       </div>
       {/* <div className="contact_title">

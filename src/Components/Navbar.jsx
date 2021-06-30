@@ -25,14 +25,14 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="Skills" offset={-120} duration={500} className="nav_link">
+            <Link to="Skills" offset={-100} duration={500} className="nav_link">
               Skills
             </Link>
           </li>
           <li>
             <Link
               to="Contact"
-              offset={-120}
+              offset={-100}
               duration={500}
               className="nav_link"
             >
