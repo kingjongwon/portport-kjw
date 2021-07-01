@@ -31,7 +31,7 @@ export default function Works() {
             <button className="work_btn">
               <a
                 href="http://kjwon8.dothome.co.kr/volvo/main.html"
-                target="_blank"
+                target="_Blank"
               >
                 Go Web
               </a>
@@ -86,7 +86,7 @@ export default function Works() {
             <button className="work_btn">
               <a
                 href="http://kjwon8.dothome.co.kr/jbl/main.html"
-                target="_blank"
+                target="_Blank"
               >
                 Go Web
               </a>
