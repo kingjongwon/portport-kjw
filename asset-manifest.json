@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portport-kjw/static/css/main.9583b5b9.chunk.css",
-    "main.js": "/portport-kjw/static/js/main.c09d1608.chunk.js",
-    "main.js.map": "/portport-kjw/static/js/main.c09d1608.chunk.js.map",
+    "main.css": "/portport-kjw/static/css/main.5029e77a.chunk.css",
+    "main.js": "/portport-kjw/static/js/main.6ceec288.chunk.js",
+    "main.js.map": "/portport-kjw/static/js/main.6ceec288.chunk.js.map",
     "runtime-main.js": "/portport-kjw/static/js/runtime-main.4d2fd60c.js",
     "runtime-main.js.map": "/portport-kjw/static/js/runtime-main.4d2fd60c.js.map",
     "static/js/2.8710f7e0.chunk.js": "/portport-kjw/static/js/2.8710f7e0.chunk.js",
@@ -10,17 +10,19 @@
     "static/js/3.a3d23e02.chunk.js": "/portport-kjw/static/js/3.a3d23e02.chunk.js",
     "static/js/3.a3d23e02.chunk.js.map": "/portport-kjw/static/js/3.a3d23e02.chunk.js.map",
     "index.html": "/portport-kjw/index.html",
-    "static/css/main.9583b5b9.chunk.css.map": "/portport-kjw/static/css/main.9583b5b9.chunk.css.map",
+    "static/css/main.5029e77a.chunk.css.map": "/portport-kjw/static/css/main.5029e77a.chunk.css.map",
     "static/js/2.8710f7e0.chunk.js.LICENSE.txt": "/portport-kjw/static/js/2.8710f7e0.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portport-kjw/static/media/Kano.f79fa125.otf",
     "static/media/about-bg.cf547125.jpg": "/portport-kjw/static/media/about-bg.cf547125.jpg",
+    "static/media/corona.d7237664.jpg": "/portport-kjw/static/media/corona.d7237664.jpg",
     "static/media/jbl-logo.bdae94c1.png": "/portport-kjw/static/media/jbl-logo.bdae94c1.png",
+    "static/media/movie.0d3b7343.jpg": "/portport-kjw/static/media/movie.0d3b7343.jpg",
     "static/media/volvo-logo.aee41bea.png": "/portport-kjw/static/media/volvo-logo.aee41bea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4d2fd60c.js",
     "static/js/2.8710f7e0.chunk.js",
-    "static/css/main.9583b5b9.chunk.css",
-    "static/js/main.c09d1608.chunk.js"
+    "static/css/main.5029e77a.chunk.css",
+    "static/js/main.6ceec288.chunk.js"
   ]
 }
