@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portport-kjw/static/css/main.5029e77a.chunk.css",
-    "main.js": "/portport-kjw/static/js/main.6ceec288.chunk.js",
-    "main.js.map": "/portport-kjw/static/js/main.6ceec288.chunk.js.map",
-    "runtime-main.js": "/portport-kjw/static/js/runtime-main.4d2fd60c.js",
-    "runtime-main.js.map": "/portport-kjw/static/js/runtime-main.4d2fd60c.js.map",
-    "static/js/2.8710f7e0.chunk.js": "/portport-kjw/static/js/2.8710f7e0.chunk.js",
-    "static/js/2.8710f7e0.chunk.js.map": "/portport-kjw/static/js/2.8710f7e0.chunk.js.map",
-    "static/js/3.a3d23e02.chunk.js": "/portport-kjw/static/js/3.a3d23e02.chunk.js",
-    "static/js/3.a3d23e02.chunk.js.map": "/portport-kjw/static/js/3.a3d23e02.chunk.js.map",
+    "main.css": "/portport-kjw/static/css/main.d5a2475a.chunk.css",
+    "main.js": "/portport-kjw/static/js/main.64dbfd6a.chunk.js",
+    "main.js.map": "/portport-kjw/static/js/main.64dbfd6a.chunk.js.map",
+    "runtime-main.js": "/portport-kjw/static/js/runtime-main.2ac2417e.js",
+    "runtime-main.js.map": "/portport-kjw/static/js/runtime-main.2ac2417e.js.map",
+    "static/js/2.91cae39a.chunk.js": "/portport-kjw/static/js/2.91cae39a.chunk.js",
+    "static/js/2.91cae39a.chunk.js.map": "/portport-kjw/static/js/2.91cae39a.chunk.js.map",
+    "static/js/3.1d820bc4.chunk.js": "/portport-kjw/static/js/3.1d820bc4.chunk.js",
+    "static/js/3.1d820bc4.chunk.js.map": "/portport-kjw/static/js/3.1d820bc4.chunk.js.map",
     "index.html": "/portport-kjw/index.html",
-    "static/css/main.5029e77a.chunk.css.map": "/portport-kjw/static/css/main.5029e77a.chunk.css.map",
-    "static/js/2.8710f7e0.chunk.js.LICENSE.txt": "/portport-kjw/static/js/2.8710f7e0.chunk.js.LICENSE.txt",
+    "static/css/main.d5a2475a.chunk.css.map": "/portport-kjw/static/css/main.d5a2475a.chunk.css.map",
+    "static/js/2.91cae39a.chunk.js.LICENSE.txt": "/portport-kjw/static/js/2.91cae39a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portport-kjw/static/media/Kano.f79fa125.otf",
     "static/media/about-bg.cf547125.jpg": "/portport-kjw/static/media/about-bg.cf547125.jpg",
     "static/media/corona.d7237664.jpg": "/portport-kjw/static/media/corona.d7237664.jpg",
@@ -20,9 +20,9 @@
     "static/media/volvo-logo.aee41bea.png": "/portport-kjw/static/media/volvo-logo.aee41bea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d2fd60c.js",
-    "static/js/2.8710f7e0.chunk.js",
-    "static/css/main.5029e77a.chunk.css",
-    "static/js/main.6ceec288.chunk.js"
+    "static/js/runtime-main.2ac2417e.js",
+    "static/js/2.91cae39a.chunk.js",
+    "static/css/main.d5a2475a.chunk.css",
+    "static/js/main.64dbfd6a.chunk.js"
   ]
 }
